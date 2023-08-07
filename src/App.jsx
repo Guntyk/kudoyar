@@ -1,3 +1,5 @@
+import Header from "./components/Header/Header";
+
 export default function App() {
-  return <h1>Kudoyar</h1>;
+  return <Header />;
 }

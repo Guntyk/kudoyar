@@ -1,3 +1,5 @@
+import Button from "../../common/Button/Button";
+
 export default function Header() {
-    return <header></header>
-};
+  return <Button buttonText="Замовити консультацію" />;
+}
