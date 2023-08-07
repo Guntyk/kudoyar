@@ -178,7 +178,7 @@ code {
 
 .container {
   margin: 0 auto;
-  width: 90%;
+  max-width: 1340px;
 }
 
 .border {
@@ -193,7 +193,7 @@ code {
 .linked::before {
   content: "";
   position: absolute;
-  bottom: -3px;
+  bottom: -2px;
   left: 50%;
   width: 0;
   height: 1.5px;
