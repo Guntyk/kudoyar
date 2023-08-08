@@ -1,0 +1,43 @@
+.stats {
+  padding: 40px 0;
+  background: var(--green);
+}
+
+.stats-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 85px;
+}
+
+.stats .text-wrapper {
+  max-width: 45%;
+}
+
+.stats .text-wrapper p {
+  margin-top: 20px;
+}
+
+.statistics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.statistic-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 0 14px;
+  height: 185px;
+}
+
+.statistic-box:nth-child(even) {
+  width: 381px;
+}
+.statistic-box:nth-child(odd) {
+  width: 244px;
+}

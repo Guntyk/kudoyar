@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Stats from "./components/Stats/Stats";
 import Hero from "./components/Hero/Hero";
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <Stats />
       </main>
     </>
   );
