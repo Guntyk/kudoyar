@@ -1,0 +1,21 @@
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.title {
+  max-width: 685px;
+  margin: 254px 0 180px;
+}
+
+.photo-1 {
+  position: absolute;
+  right: 0;
+  top: -15%;
+}
+
+.order-btn {
+  margin-bottom: 51px;
+}
