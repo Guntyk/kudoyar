@@ -1,3 +1,4 @@
+import Articles from "./components/Articles/Articles";
 import Services from "./components/Services/Services";
 import Header from "./components/Header/Header";
 import Stats from "./components/Stats/Stats";
@@ -11,6 +12,7 @@ export default function App() {
         <Hero />
         <Stats />
         <Services />
+        <Articles />
       </main>
     </>
   );

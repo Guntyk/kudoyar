@@ -18,3 +18,12 @@
 .btn:active {
   opacity: 0.8;
 }
+
+.article-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  padding: 0 40px;
+  width: 100%;
+}
