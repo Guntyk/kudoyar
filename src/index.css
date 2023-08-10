@@ -193,10 +193,10 @@ code {
 .linked::before {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -3px;
   left: 50%;
   width: 0;
-  height: 1.5px;
+  height: 2px;
   background: #222;
   transform: translateX(-50%);
   transition: 0.2s;
@@ -208,6 +208,10 @@ code {
 .subtitle.linked::before {
   height: 2px;
   bottom: -3px;
+}
+
+.footer-link.linked::before {
+  background: #fff;
 }
 
 .title {
@@ -269,5 +273,8 @@ code {
 }
 
 body {
+  position: relative;
+  padding-bottom: 345px;
+  scroll-behavior: smooth;
   background: url(./materials/background/back-1.svg) no-repeat 20% -5%;
 }

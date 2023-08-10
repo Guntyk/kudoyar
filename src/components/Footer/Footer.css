@@ -1,0 +1,22 @@
+.footer-background {
+  position: absolute;
+  width: 100%;
+  padding: 80px 0 120px;
+  background: #000;
+  bottom: 0;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper,
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 125px;
+}
