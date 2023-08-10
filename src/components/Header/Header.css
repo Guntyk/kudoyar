@@ -2,7 +2,10 @@
   display: flex;
   align-items: center;
   position: fixed;
-  padding: 17px 0 7px;
+  padding: 17px 17px 7px;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  z-index: 10;
 }
 
 .header::before {
