@@ -255,6 +255,10 @@ code {
 }
 
 .customer-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
   font-size: 18px;
   line-height: 24px; /* 133.333% */
 }

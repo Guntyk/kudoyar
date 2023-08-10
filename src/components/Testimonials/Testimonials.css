@@ -1,0 +1,44 @@
+.testimonials-background {
+  padding: 66px 0 44px;
+  background: var(--green);
+}
+
+.testimonials-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  overflow-y: hidden;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  min-width: 736px;
+  max-width: 736px;
+  height: 326px;
+}
+
+.testimonial.short {
+  justify-content: start;
+}
+.testimonial.short .naming {
+  margin-bottom: 20px;
+}
+
+.testimonials-wrapper::-webkit-scrollbar {
+  height: 27px;
+}
+
+.testimonials-wrapper::-webkit-scrollbar-track {
+  background: #000;
+  box-shadow: inset 0px 0px 0px 12.5px var(--green);
+}
+
+.testimonials-wrapper::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  outline: 2px solid #000;
+  border-radius: 10px;
+}

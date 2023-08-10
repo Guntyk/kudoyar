@@ -1,3 +1,4 @@
+import Testimonials from "./components/Testimonials/Testimonials";
 import Articles from "./components/Articles/Articles";
 import Services from "./components/Services/Services";
 import Header from "./components/Header/Header";
@@ -13,6 +14,7 @@ export default function App() {
         <Stats />
         <Services />
         <Articles />
+        <Testimonials />
       </main>
     </>
   );

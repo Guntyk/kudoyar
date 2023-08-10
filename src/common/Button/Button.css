@@ -27,3 +27,10 @@
   padding: 0 40px;
   width: 100%;
 }
+
+.customer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
