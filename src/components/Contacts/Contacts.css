@@ -1,0 +1,45 @@
+.contacts-background {
+  background: url(../../materials/background/back-3.svg) no-repeat 50% 10%;
+}
+
+.contacts {
+  position: relative;
+  padding: 75px 0 60px;
+}
+
+.contacts h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.contacts-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 518px;
+  height: 568px;
+}
+
+.name {
+  margin: 56px 0 38px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact:nth-child(2) {
+  margin: 42px 0 33px;
+  padding: 15px 35px;
+  border-radius: 40px;
+  background: var(--green);
+}
+
+.contacts-photo {
+  position: absolute;
+  bottom: -7.5%;
+  right: 0;
+}

@@ -205,6 +205,11 @@ code {
   width: 100%;
 }
 
+.subtitle.linked::before {
+  height: 2px;
+  bottom: -3px;
+}
+
 .title {
   font-family: "e-Ukraine-Head";
   font-size: 56px;
@@ -264,5 +269,5 @@ code {
 }
 
 body {
-  background: url(./materials/background/back-1.svg) no-repeat 20% 10%;
+  background: url(./materials/background/back-1.svg) no-repeat 20% -5%;
 }
