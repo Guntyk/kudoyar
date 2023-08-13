@@ -1,12 +1,11 @@
 .btn {
-  width: 299px;
-  height: 56px;
+  width: 15.55vw;
+  height: 2.9vw;
   color: #fff;
   background: var(--black);
-  border: 2px solid var(--black);
-  border-radius: 50px;
-  font-size: 16px;
-  backdrop-filter: blur(10px);
+  border: 0.2vw solid var(--black);
+  border-radius: 2.60416vw;
+  font-size: 0.83vw;
   transition: 0.2s;
 }
 
@@ -19,18 +18,38 @@
   opacity: 0.8;
 }
 
-.article-btn {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 23px;
-  padding: 0 40px;
-  width: 100%;
-}
-
+.article-btn,
 .customer-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 2.08vw;
+}
+
+.article-btn {
+  margin-top: 1.197vw;
+  width: 100%;
+}
+
+.btn-arrow {
+  height: 30%;
+  aspect-ratio: 1/1;
+}
+
+@media (max-width: 650px) {
+  .btn {
+    width: 249px;
+    height: 46px;
+    font-size: 13px;
+    line-height: 18px;
+    border-radius: 30px;
+  }
+  .article-btn,
+  .customer-btn {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .article-btn {
+    margin-top: 20px;
+  }
 }

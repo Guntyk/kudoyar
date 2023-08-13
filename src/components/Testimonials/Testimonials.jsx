@@ -4,7 +4,7 @@ import "./Testimonials.css";
 
 export default function Testimonials() {
   return (
-    <div className="testimonials-background">
+    <div className="testimonials-background" id="testimonials">
       <div className="container">
         <section className="testimonials">
           <h2 className="sec-title">Відгуки клієнтів</h2>

@@ -3,7 +3,7 @@ import "./Contacts.css";
 
 export default function Contacts() {
   return (
-    <div className="contacts-background">
+    <div className="contacts-background" id="contacts">
       <div className="container">
         <section className="contacts">
           <h2 className="sec-title">Контакти</h2>

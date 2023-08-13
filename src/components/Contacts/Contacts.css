@@ -4,11 +4,11 @@
 
 .contacts {
   position: relative;
-  padding: 75px 0 60px;
+  padding: 3.90625vw 0 3.125vw;
 }
 
 .contacts h2 {
-  margin-bottom: 60px;
+  margin-bottom: 3.125vw;
   text-align: center;
 }
 
@@ -16,25 +16,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 518px;
-  height: 568px;
+  width: 26.979vw;
+  height: 29.5833vw;
 }
 
 .name {
-  margin: 56px 0 38px;
+  margin: 2.9166vw 0 2.03125vw;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 0.5208vw;
 }
 
 .contact:nth-child(2) {
-  margin: 42px 0 33px;
-  padding: 15px 35px;
-  border-radius: 40px;
+  margin: 2.1875vw 0 1.71875vw;
+  padding: 0.78125vw 1.8229vw;
+  border-radius: 2.0833vw;
   background: var(--green);
 }
 
@@ -42,5 +42,42 @@
   position: absolute;
   bottom: -7.5%;
   right: 0;
+  width: 34.166vw;
+  height: 41.40625vw;
   z-index: 0;
+}
+
+@media (max-width: 650px) {
+  .contacts {
+    padding: 35px 0 340px;
+  }
+  .contacts h2 {
+    margin-bottom: 25px;
+  }
+  .contacts-box {
+    padding: 25px 30px 40px 30px;
+    width: 100%;
+    height: auto;
+  }
+  .name {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .contact {
+    gap: 3px;
+  }
+  .contact:nth-child(2) {
+    margin: 15px 0;
+    padding: 8px 25px 16px 25px;
+    background: var(--green);
+    border-radius: 30px;
+  }
+  .contacts-photo {
+    bottom: -8%;
+    left: 50%;
+    width: 336px;
+    height: 407px;
+    z-index: 0;
+    transform: translateX(-50%);
+  }
 }

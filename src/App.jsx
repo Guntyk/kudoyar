@@ -18,8 +18,8 @@ export default function App() {
         <Articles />
         <Testimonials />
         <Contacts />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }

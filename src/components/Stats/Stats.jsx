@@ -23,19 +23,19 @@ export default function Stats() {
           <div className="statistics">
             <div className="statistic-box border">
               <span className="sec-title">30 років</span>
-              <p className="descr">На ринку нерухомості</p>
+              <p className="text-b">На ринку нерухомості</p>
             </div>
             <div className="statistic-box border">
               <span className="sec-title">400 000 000 грн</span>
-              <p className="descr">Грошей клієнтів збережено</p>
+              <p className="text-b">Грошей клієнтів збережено</p>
             </div>
             <div className="statistic-box border">
               <span className="sec-title">1470</span>
-              <p className="descr">Проведено оцінок ризиків за 10 років</p>
+              <p className="text-b">Проведено оцінок ризиків за 10 років</p>
             </div>
             <div className="statistic-box border">
               <span className="sec-title">від 1% до 10%</span>
-              <p className="descr">Економія грошей замовника</p>
+              <p className="text-b">Економія грошей замовника</p>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import "./Services.css";
 export default function Services() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="services">
         <h2 className="sec-title services-title">Мої послуги</h2>
       </div>
       <section className="services">

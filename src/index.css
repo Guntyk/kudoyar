@@ -178,12 +178,13 @@ code {
 
 .container {
   margin: 0 auto;
-  max-width: 1340px;
+  max-width: calc(1340px + 2.6vw * 2);
+  padding: 0 2.6vw;
 }
 
 .border {
-  border-radius: 40px;
-  border: 2px solid #000;
+  border-radius: 2.08vw;
+  border: 0.2vw solid #000;
   background: #fff;
 }
 
@@ -193,10 +194,10 @@ code {
 .linked::before {
   content: "";
   position: absolute;
-  bottom: -3px;
+  bottom: -0.15625vw;
   left: 50%;
   width: 0;
-  height: 2px;
+  height: 0.1vw;
   background: #222;
   transform: translateX(-50%);
   transition: 0.2s;
@@ -205,62 +206,57 @@ code {
   width: 100%;
 }
 
-.subtitle.linked::before {
-  height: 2px;
-  bottom: -3px;
-}
-
 .footer-link.linked::before {
   background: #fff;
 }
 
 .title {
   font-family: "e-Ukraine-Head";
-  font-size: 56px;
-  line-height: 60px;
+  font-size: 2.916vw;
+  line-height: 3.125vw;
 }
 
 .sec-title {
   font-family: "e-Ukraine-Head";
-  font-size: 38px;
-  line-height: 40px; /* 105.263% */
+  font-size: 1.979vw;
+  line-height: 2.08vw; /* 105.263% */
 }
 
 .subtitle {
-  font-size: 28px;
-  line-height: 32px; /* 114.286% */
+  font-size: 1.458vw;
+  line-height: 1.666vw; /* 114.286% */
 }
 
 .logo {
   font-family: "e-Ukraine-Head-Logo";
-  font-size: 24px;
-  line-height: 16px;
+  font-size: 1.25vw;
+  line-height: 0.833vw;
 }
 
 .text-b {
-  font-size: 20px;
-  line-height: 25px; /* 125% */
+  font-size: 1.041vw;
+  line-height: 1.302vw; /* 125% */
 }
 
 .text-m {
-  font-size: 18px;
-  line-height: 28px; /* 155.556% */
+  font-size: 0.9375vw;
+  line-height: 1.458vw; /* 155.556% */
 }
 
 .text {
-  font-size: 16px;
-  line-height: 24px; /* 150% */
+  font-size: 0.833vw;
+  line-height: 1.25vw; /* 150% */
 }
 
 .text-s {
   color: #fff;
-  font-size: 12px;
-  line-height: 16px; /* 133.333% */
+  font-size: 0.625vw;
+  line-height: 0.833vw; /* 133.333% */
 }
 
 .naming {
-  font-size: 24px;
-  line-height: 28px; /* 116.667% */
+  font-size: 1.25vw;
+  line-height: 1.458vw; /* 116.667% */
 }
 
 .customer-text {
@@ -268,13 +264,65 @@ code {
   -webkit-box-orient: vertical;
   overflow: hidden;
   -webkit-line-clamp: 5;
-  font-size: 18px;
-  line-height: 24px; /* 133.333% */
+  font-size: 0.9375vw;
+  line-height: 1.25vw; /* 133.333% */
 }
 
 body {
   position: relative;
-  padding-bottom: 345px;
-  scroll-behavior: smooth;
+  padding-bottom: 17.96875vw;
   background: url(./materials/background/back-1.svg) no-repeat 20% -5%;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 650px) {
+  .linked::before {
+    width: 100%;
+    height: 2px;
+  }
+  nav .linked::before {
+    width: 0 !important;
+  }
+  .logo {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .border {
+    border: 2px solid #000;
+    border-radius: 30px;
+  }
+  .sec-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .text-b {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .text {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .text-s {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .naming {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .customer-text {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  body {
+    padding-bottom: 430px;
+  }
 }

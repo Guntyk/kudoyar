@@ -8,16 +8,20 @@ export default function Footer() {
       <div className="container">
         <footer className="footer">
           <div className="wrapper">
-            <a href="/" className="logo-link">
-              <img src={logo} alt="Логотип 'Кудояр'" className="logo-img" />
-              <span className="logo">Кудояр</span>
+            <a href="/" className="logo-link footer-logo-link">
+              <img
+                src={logo}
+                alt="Логотип 'Кудояр'"
+                className="logo-img footer-logo-img"
+              />
+              <span className="logo footer-logo">Кудояр</span>
             </a>
-            <div className="rights">
+            <div className="text-s">
               © Kudoyar Всі права захищені{" "}
               {year === 2023 ? "2023" : `2023 - ${year}`}
             </div>
           </div>
-          <nav className="wrapper">
+          <nav className="wrapper text-s">
             <ul className="nav-links">
               <li>
                 <a href="#services" className="linked footer-link">
@@ -41,7 +45,7 @@ export default function Footer() {
               </li>
             </ul>
           </nav>
-          <ul className="wrapper">
+          <ul className="wrapper text">
             <li>
               <span>Facebook: </span>
               <a

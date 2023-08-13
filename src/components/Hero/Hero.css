@@ -3,20 +3,49 @@
   flex-direction: column;
   position: relative;
   justify-content: center;
+  overflow: hidden;
 }
 
 .title {
-  max-width: 685px;
-  margin: 254px 0 180px;
+  max-width: 35.677vw;
+  margin: 13.22916vw 0 9.375vw;
 }
 
 .photo-1 {
   position: absolute;
   right: -5%;
   top: -15%;
+  width: 35.72916vw;
+  height: 53.5416vw;
   z-index: -1;
 }
 
 .order-btn {
-  margin-bottom: 51px;
+  margin-bottom: 2.65625vw;
+}
+
+@media (max-width: 650px) {
+  .hero-wrapper {
+    padding: 95px 0 344px;
+  }
+  .title {
+    font-size: 26px;
+    text-align: center;
+    width: 295px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 28px;
+    max-width: unset;
+  }
+  .order-btn {
+    margin: 0 auto;
+  }
+  .photo-1 {
+    width: 334px;
+    height: 500px;
+    right: 47%;
+    transform: translateX(50%);
+    bottom: -17%;
+    top: unset;
+  }
 }
