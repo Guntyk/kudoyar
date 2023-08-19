@@ -15,7 +15,7 @@ export default function Services() {
                   Консультація при купівлі нерухомості на первинному, вторинному
                   ринку
                 </h3>
-                <div className="service-box border text">
+                <div className="service-box bordered text">
                   <span>
                     Оцінка ризиків, пов'язаних з: <br />
                   </span>
@@ -40,7 +40,7 @@ export default function Services() {
                 <h3 className="subtitle">
                   Супровід угод на первинному, вторинному ринку нерухомості
                 </h3>
-                <div className="service-box border text">
+                <div className="service-box bordered text">
                   <span>
                     Що входить у послугу:
                     <br />

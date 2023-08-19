@@ -182,7 +182,7 @@ code {
   padding: 0 2.6vw;
 }
 
-.border {
+.bordered {
   border-radius: 2.08vw;
   border: 0.2vw solid #000;
   background: #fff;
@@ -290,7 +290,7 @@ body {
     font-size: 16px;
     line-height: 24px;
   }
-  .border {
+  .bordered {
     border: 2px solid #000;
     border-radius: 30px;
   }

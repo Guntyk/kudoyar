@@ -13,7 +13,7 @@ export default function Articles() {
           <div className="articles-wrapper">
             {articles.map((article) => (
               <article
-                className="article border"
+                className="article bordered"
                 key={article.text.slice(0, 50)}
               >
                 <div className="img-wrapper">

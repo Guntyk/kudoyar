@@ -17,7 +17,7 @@ export default function Testimonials() {
               {testimonials.length !== 0 &&
                 testimonials.map((customer) => (
                   <div
-                    className={`testimonial border ${
+                    className={`testimonial bordered ${
                       customer.text.length > 300 ? "" : "short"
                     }`}
                     key={customer.text.slice(0, 50)}

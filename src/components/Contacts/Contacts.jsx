@@ -8,7 +8,7 @@ export default function Contacts() {
       <div className="container">
         <section className="contacts">
           <h2 className="sec-title">Контакти</h2>
-          <div className="contacts-box border">
+          <div className="contacts-box bordered">
             <span className="sec-title name">Іван Кудояр</span>
             <ul>
               <li className="contact">
