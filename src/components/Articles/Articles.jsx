@@ -28,7 +28,7 @@ export default function Articles() {
                 <span className="article-title subtitle">{article.title}</span>
                 <p className="article-text text">{article.text}</p>
                 <Button
-                  className="article-btn"
+                  className="article-button"
                   articleBtn
                   onClick={() => {
                     push(`/articles/${article.id}`);

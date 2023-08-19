@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-wrapper">
           <h1 className="title">Юрист. Консультант з купівлі нерухомості</h1>
-          <Button className="order-btn" buttonText="Замовити консультацію" />
+          <Button className="order-button" buttonText="Замовити консультацію" />
           <img src={photo} alt="Фотографія Івана Кудояра" className="photo-1" />
         </div>
       </div>

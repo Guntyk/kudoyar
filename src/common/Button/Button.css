@@ -1,4 +1,4 @@
-.btn {
+.button {
   width: 15.55vw;
   height: 2.9vw;
   color: #fff;
@@ -9,24 +9,24 @@
   transition: 0.2s;
 }
 
-.btn:hover,
-.btn:focus {
+.button:hover,
+.button:focus {
   transform: scale(1.05);
 }
 
-.btn:active {
+.button:active {
   opacity: 0.8;
 }
 
-.article-btn,
-.customer-btn {
+.article-button,
+.customer-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2.08vw;
 }
 
-.article-btn {
+.article-button{
   margin-top: 1.197vw;
   width: 100%;
 }
@@ -37,19 +37,19 @@
 }
 
 @media (max-width: 650px) {
-  .btn {
+  .button{
     width: 249px;
     height: 46px;
     font-size: 13px;
     line-height: 18px;
     border-radius: 30px;
   }
-  .article-btn,
-  .customer-btn {
+  .article-button,
+  .customer-button{
     width: 100%;
     padding: 0 20px;
   }
-  .article-btn {
+  .article-button{
     margin-top: 20px;
   }
 }

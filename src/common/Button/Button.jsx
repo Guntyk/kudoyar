@@ -7,7 +7,7 @@ export default function Button({
   articleBtn,
   ...props
 }) {
-  const buttonClass = "btn " + className || "";
+  const buttonClass = "button " + className || "";
   return (
     <button className={buttonClass} type={type || "button"} {...props}>
       {articleBtn ? (
@@ -24,7 +24,13 @@ export default function Button({
 
 function Arrow() {
   return (
-    <svg width="20" height="17" viewBox="0 0 20 17" fill="none" className="btn-arrow">
+    <svg
+      width="20"
+      height="17"
+      viewBox="0 0 20 17"
+      fill="none"
+      className="btn-arrow"
+    >
       <line
         x1="18.0779"
         y1="4.37114e-08"
