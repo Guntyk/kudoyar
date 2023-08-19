@@ -68,11 +68,17 @@
 }
 
 @media (max-width: 650px) {
+  .article-background {
+    height: 60vh;
+  }
+  .article-detail-title-wrapper {
+    padding-top: 50px;
+    height: 60vh;
+  }
   .article-detail-title.title {
     width: unset;
   }
-
   .article-detail-text {
-    padding: 25px 0;
+    padding: 20px 0;
   }
 }
