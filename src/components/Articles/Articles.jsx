@@ -11,7 +11,11 @@ export default function Articles() {
           <div className="articles-wrapper">
             {articles.map((article) => (
               <div className="article border" key={article.text.slice(0, 50)}>
-                <div className="img-wrapper"></div>
+                <div className="img-wrapper">
+                  {article.img ? (
+                    <img src={article.img} alt="Обкладинка статті" className="article-img" />
+                  ) : null}
+                </div>
                 <span className="article-title subtitle">{article.title}</span>
                 <p className="article-text text">{article.text}</p>
                 <Button className="article-btn" articleBtn />

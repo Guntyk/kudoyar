@@ -30,7 +30,13 @@
   width: 18.28125vw;
   height: 10.3125vw;
   border-radius: 1.5625vw;
-  outline: 0.2vw solid red;
+  overflow: hidden;
+}
+
+.article-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .article-text {
