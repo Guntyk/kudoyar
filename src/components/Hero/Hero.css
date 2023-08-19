@@ -6,6 +6,10 @@
   overflow: hidden;
 }
 
+.hero a {
+  margin-left: 7px;
+}
+
 .title {
   max-width: 35.677vw;
   margin: 13.22916vw 0 9.375vw;
@@ -20,7 +24,7 @@
   z-index: -1;
 }
 
-.order-button{
+.order-button {
   margin-bottom: 2.65625vw;
 }
 
@@ -28,7 +32,7 @@
   .hero-wrapper {
     padding: 95px 0 344px;
   }
-  .order-button{
+  .order-button {
     margin: 0 auto;
   }
   .photo-1 {

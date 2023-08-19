@@ -1,5 +1,6 @@
 import logo from "../../materials/logo-black.png";
 import "./Footer.css";
+import Facebook from "../../materials/Facebook.svg";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -47,7 +48,7 @@ export default function Footer() {
           </nav>
           <ul className="wrapper text">
             <li>
-              <span>Facebook: </span>
+              <img src={Facebook} alt="" />
               <a
                 href="https://facebook.com/kudoyriv"
                 rel="noreferrer noopener"

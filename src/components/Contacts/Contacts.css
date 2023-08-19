@@ -31,6 +31,12 @@
   gap: 0.5208vw;
 }
 
+.contact:first-child .subtitle {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
 .contact:nth-child(2) {
   margin: 2.1875vw 0 1.71875vw;
   padding: 0.78125vw 1.8229vw;

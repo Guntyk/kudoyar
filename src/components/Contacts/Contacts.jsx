@@ -1,5 +1,6 @@
 import photo from "../../materials/photo-2.png";
 import "./Contacts.css";
+import FacebookBlack from "../../materials/Facebook-black.svg";
 
 export default function Contacts() {
   return (
@@ -18,6 +19,7 @@ export default function Contacts() {
                   target="_blank"
                   className="subtitle linked"
                 >
+                  <img src={FacebookBlack} alt="" />
                   kudoyriv
                 </a>
               </li>
@@ -40,7 +42,11 @@ export default function Contacts() {
               </li>
             </ul>
           </div>
-          <img src={photo} className="contacts-photo" alt="Фотографія Івана Кудояра" />
+          <img
+            src={photo}
+            className="contacts-photo"
+            alt="Фотографія Івана Кудояра"
+          />
         </section>
       </div>
     </div>
