@@ -16,7 +16,7 @@ export default function Header() {
           <ul className="text links">
             <li>
               <a
-                href="#services"
+                href="/#services"
                 className="linked"
                 onClick={() => {
                   setIsActive(false);
@@ -27,7 +27,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#articles"
+                href="/#articles"
                 className="linked"
                 onClick={() => {
                   setIsActive(false);
@@ -38,7 +38,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#testimonials"
+                href="/#testimonials"
                 className="linked"
                 onClick={() => {
                   setIsActive(false);
@@ -49,7 +49,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#contacts"
+                href="/#contacts"
                 className="linked"
                 onClick={() => {
                   setIsActive(false);

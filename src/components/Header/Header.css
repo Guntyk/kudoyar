@@ -1,10 +1,10 @@
 .header {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 0;
+  background: #fff;
   padding: 0.885vw 0.885vw 0.364vw;
-  z-index: 10;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .header::before {
@@ -73,6 +73,8 @@
     padding: 12px 15px 10px 0;
     width: 100%;
     background: #fff;
+    border-radius: 0;
+    z-index: 10;
   }
   .header::before {
     width: 90%;

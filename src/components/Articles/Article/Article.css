@@ -35,14 +35,15 @@
 /* Article */
 .article-background {
   position: fixed;
+  top: 0;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background-blend-mode: darken;
   z-index: -1;
 }
 
 .article-detail-title-wrapper {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
