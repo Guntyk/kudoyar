@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 650px) {
+  .hero a {
+    margin: 0 auto;
+  }
   .hero-wrapper {
     padding: 95px 0 344px;
   }

@@ -47,6 +47,10 @@
     justify-content: unset;
     gap: 20px;
   }
+  .wrapper:nth-child(3) li:first-child {
+    display: flex;
+    justify-content: center;
+  }
   .footer .logo-link {
     justify-content: center;
   }

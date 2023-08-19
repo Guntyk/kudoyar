@@ -333,5 +333,6 @@ body {
   }
   body {
     padding-bottom: 430px;
+    background: url(./materials/background/back-1.svg) no-repeat 30% -25%;
   }
 }
