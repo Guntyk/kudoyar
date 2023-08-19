@@ -294,6 +294,15 @@ body {
     border: 2px solid #000;
     border-radius: 30px;
   }
+  .title {
+    font-size: 26px;
+    text-align: center;
+    width: 295px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 28px;
+    max-width: unset;
+  }
   .sec-title {
     font-size: 20px;
     line-height: 24px;
