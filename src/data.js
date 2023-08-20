@@ -1,9 +1,9 @@
-import p1 from "./materials/articles-photo/1.jpg";
-import p2 from "./materials/articles-photo/2.jpg";
-import p3 from "./materials/articles-photo/3.png";
-import p4 from "./materials/articles-photo/4.jpg";
-import p5 from "./materials/articles-photo/5.jpg";
-import p6 from "./materials/articles-photo/6.jpg";
+import p1 from "./materials/articles-photo/1.webp";
+import p2 from "./materials/articles-photo/2.webp";
+import p3 from "./materials/articles-photo/3.webp";
+import p4 from "./materials/articles-photo/4.webp";
+import p5 from "./materials/articles-photo/5.webp";
+import p6 from "./materials/articles-photo/6.webp";
 
 export const articles = [
   {
