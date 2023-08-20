@@ -1,6 +1,6 @@
-import photo from "../../materials/photo-2.png";
-import "./Contacts.css";
 import FacebookBlack from "../../materials/Facebook-black.svg";
+import photo from "../../materials/photo-2.webp";
+import "./Contacts.css";
 
 export default function Contacts() {
   return (

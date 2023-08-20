@@ -1,5 +1,5 @@
 import Button from "../../common/Button/Button";
-import photo from "../../materials/photo-1.png";
+import photo from "../../materials/photo-1.webp";
 import "./Hero.css";
 
 export default function Hero() {
