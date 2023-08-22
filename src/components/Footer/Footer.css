@@ -1,7 +1,7 @@
 .footer-background {
   position: absolute;
   width: 100%;
-  padding: 4.16666vw 0 6.25vw;
+  padding: 4.16666vw 0 2vw;
   background: #000;
   bottom: 0;
   color: #fff;
@@ -27,9 +27,16 @@
   gap: 10px;
 }
 
+.credits {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: end;
+  font-size: 0.8vw;
+}
+
 @media (max-width: 650px) {
   .footer-background {
-    padding: 30px 0 58px;
+    padding: 30px 0 30px;
   }
   .footer {
     flex-direction: column;
@@ -71,5 +78,13 @@
   .footer-logo {
     font-size: 24px;
     line-height: 16px;
+  }
+  .credits {
+    margin-top: 50px;
+    font-size: 13px;
+    justify-content: center;
+  }
+  .credits .footer-link::before {
+    bottom: -3px;
   }
 }

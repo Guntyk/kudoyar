@@ -77,6 +77,11 @@ export default function Footer() {
             </li>
           </ul>
         </footer>
+        <aside className="credits">
+          <a href="https://tapmybio.com/sate" target="_blank" rel="noreferrer" className="linked footer-link">
+            Created by Sate
+          </a>
+        </aside>
       </div>
     </div>
   );
