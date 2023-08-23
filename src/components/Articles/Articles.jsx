@@ -5,14 +5,14 @@ import "./Articles.css";
 
 export default function Articles() {
   const { push } = useHistory();
-  const articlesArr = articles.reverse();
+  const articlesArr = [...articles];
   return (
     <div className="articles-background" id="articles">
       <div className="container">
         <section className="articles">
           <h2 className="sec-title">Статті</h2>
           <div className="articles-wrapper">
-            {articlesArr.map((article) => (
+            {articlesArr.reverse(6).map((article) => (
               <article
                 className="article bordered"
                 key={article.text.slice(0, 50)}
