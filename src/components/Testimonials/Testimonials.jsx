@@ -7,6 +7,7 @@ import "./Testimonials.css";
 
 export default function Testimonials() {
   const [modal, setModal] = useState("");
+  const testimonialsArr = testimonials.reverse();
   return (
     <>
       <div className="testimonials-background" id="testimonials">
@@ -14,8 +15,8 @@ export default function Testimonials() {
           <section className="testimonials">
             <h2 className="sec-title">Відгуки клієнтів</h2>
             <div className="testimonials-wrapper">
-              {testimonials.length !== 0 &&
-                testimonials.reverse().map((customer) => (
+              {testimonialsArr.length !== 0 &&
+                testimonialsArr.map((customer) => (
                   <div
                     className={`testimonial bordered ${
                       customer.text.length > 300 ? "" : "short"
