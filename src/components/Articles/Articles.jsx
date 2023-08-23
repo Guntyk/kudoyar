@@ -11,7 +11,7 @@ export default function Articles() {
         <section className="articles">
           <h2 className="sec-title">Статті</h2>
           <div className="articles-wrapper">
-            {articles.map((article) => (
+            {articles.reverse().map((article) => (
               <article
                 className="article bordered"
                 key={article.text.slice(0, 50)}

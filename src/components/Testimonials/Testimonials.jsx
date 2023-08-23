@@ -15,7 +15,7 @@ export default function Testimonials() {
             <h2 className="sec-title">Відгуки клієнтів</h2>
             <div className="testimonials-wrapper">
               {testimonials.length !== 0 &&
-                testimonials.map((customer) => (
+                testimonials.reverse().map((customer) => (
                   <div
                     className={`testimonial bordered ${
                       customer.text.length > 300 ? "" : "short"
