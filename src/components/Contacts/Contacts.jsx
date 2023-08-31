@@ -35,9 +35,9 @@ export default function Contacts() {
                 </a>
               </li>
               <li className="contact">
-                <span className="naming">Номер телефону</span>
+                <span className="naming">Телефон</span>
                 <a href="tel:+380505925383" className="subtitle linked">
-                  +380 50 592 5383
+                  +38 050 592 5383
                 </a>
               </li>
             </ul>

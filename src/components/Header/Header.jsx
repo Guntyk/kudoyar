@@ -9,7 +9,7 @@ export default function Header() {
       <header className="header">
         <a href="/" className="logo-link">
           <img src={logo} alt="Логотип 'Кудояр'" className="logo-img" />
-          <span className="logo">Кудояр</span>
+          <span className="logo">Kudoyar & Co.</span>
         </a>
 
         <nav className={`menu ${isActive ? "active" : ""}`}>

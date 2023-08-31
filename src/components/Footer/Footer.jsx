@@ -15,7 +15,7 @@ export default function Footer() {
                 alt="Логотип 'Кудояр'"
                 className="logo-img footer-logo-img"
               />
-              <span className="logo footer-logo">Кудояр</span>
+              <span className="logo footer-logo">Kudoyar & Co.</span>
             </a>
             <div className="text-s">
               © Kudoyar Всі права захищені{" "}
@@ -72,7 +72,7 @@ export default function Footer() {
             <li>
               <span>Іван: </span>
               <a href="tel:+380505925383" className="linked footer-link">
-                +380 50 592 5383
+                +38 050 592 5383
               </a>
             </li>
           </ul>
